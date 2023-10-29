@@ -1,5 +1,5 @@
 import re
-
+# Ask for the info from the user
 def get_user_info():
     print("Welcome! Please provide the following information:")
     
@@ -25,7 +25,7 @@ def get_user_info():
             break
         else:
             print("Invalid email format. Please try again.")
-    
+    # Displays the details entered by the user
     return {
         "Name": user_name,
         "Age": user_age,
