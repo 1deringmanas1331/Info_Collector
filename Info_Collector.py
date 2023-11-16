@@ -8,7 +8,7 @@ def get_user_info():
         user_name = input("Name: ")
         if user_name.strip():
             break
-    # If
+    # If name is empty asks user to try again as it is a required field
         else:
             print("Name cannot be empty. Please try again.")
     
