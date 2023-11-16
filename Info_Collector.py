@@ -1,12 +1,14 @@
+#import re library
 import re
 # Ask for the info from the user
 def get_user_info():
     print("Welcome! Please provide the following information:")
-    
+    # Asks for the user name
     while True:
         user_name = input("Name: ")
         if user_name.strip():
             break
+    # If
         else:
             print("Name cannot be empty. Please try again.")
     
