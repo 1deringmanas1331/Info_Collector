@@ -3,7 +3,7 @@ import re
 # Ask for the info from the user
 def get_user_info():
     print("Welcome! Please provide the following information:")
-    # Asks for the user name
+    # Ask the
     while True:
         user_name = input("Name: ")
         if user_name.strip():
