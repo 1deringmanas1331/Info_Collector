@@ -1,4 +1,4 @@
-# import re library
+# Import re library
 import re
 # Ask for the info from the user
 def get_user_info():
