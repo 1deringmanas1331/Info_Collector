@@ -19,7 +19,7 @@ def get_user_info():
             break
         else:
             print("Age must be a valid number between 0 and 120. Please try again.")
-    # Ask for the user emai
+    # Ask for the user email
     while True:
         user_email = input("Email: ")
         email_pattern = r"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
